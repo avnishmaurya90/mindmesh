@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { AuthProvider } from './context/AuthContext';
+import { BrowserRouter } from 'react-router-dom';
+import { CardProvider } from './context/CardContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <AuthProvider>
+        <CardProvider>
+          <App />
+        </CardProvider>
+      </AuthProvider>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
