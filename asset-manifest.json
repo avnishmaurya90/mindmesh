@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mindmesh/static/css/main.ef900a89.css",
+    "main.js": "/mindmesh/static/js/main.1981358e.js",
+    "static/js/453.789f476a.chunk.js": "/mindmesh/static/js/453.789f476a.chunk.js",
+    "index.html": "/mindmesh/index.html",
+    "main.ef900a89.css.map": "/mindmesh/static/css/main.ef900a89.css.map",
+    "main.1981358e.js.map": "/mindmesh/static/js/main.1981358e.js.map",
+    "453.789f476a.chunk.js.map": "/mindmesh/static/js/453.789f476a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef900a89.css",
+    "static/js/main.1981358e.js"
+  ]
+}
